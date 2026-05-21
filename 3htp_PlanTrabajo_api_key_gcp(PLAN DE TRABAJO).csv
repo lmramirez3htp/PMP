@@ -1,0 +1,39 @@
+CRONOGRAMA DE ACTIVIDADES;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;PROYECTO;Rotación api kyes proyecto proteccion-davinci-prod01;;;;;;
+;;;;;;;;;
+;;RESPONSABLE;3HTP GCP - Proteccion;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+ID;DESCRIPCIÓN DE LA ACTIVIDAD;;ESTIMADA;;;RESPONSABLE;OBSERVACIONES;;
+;;;DURACION (Horas);Fecha Inicio;Fecha Fin;;;;
+1;Eliminar apiKeys google recaptcha consola gcp;;00:03:00;lunes 24 de mayo 7:00pm;lunes 24 de mayo 7:03pm;3HTP;"Api-key biometria-facial
+Api-key_portal-empresas-pdn
+API key recaptcha-pasarela-pdn
+API-key simulador-macrocomplemento-pdn
+Api-key recaptcha perfilamiento-proteccion pdn
+API key prospectos-pdn
+API key perfilador-bienestar-pdn
+API key rep-exp-financiero-front-pdn
+Api key Recaptcha Portal-contenidos
+API key Recaptcha Portal transaccional-pdn
+API key mktcloud
+API key Eyc-afi-cesantias-pdn";;
+2;Editar variable correspondiente al apikey desde codeploy o urban según corresponda;;00:05:00;lunes 24 de mayo 7:03pm;lunes 24 de mayo 7:08pm;3HTP;;;
+3;Realizar redespliegue del micro-servicio asociado;;00:05:00;lunes 24 de mayo 7:08pm;lunes 24 de mayo 7:13pm;3HTP;;;
+;Plan Rollback;;;;;;;;
+5;Devolver el valor de la variable a la anterior y redesplegar;;00:10:00;lunes 24 de mayo 7:13pm;lunes 24 de mayo 7:23pm;3HTP;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
